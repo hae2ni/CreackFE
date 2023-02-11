@@ -58,3 +58,4 @@
 # # Ruby / CocoaPods
 # /ios/Pods/
 # /vendor/bundle/
+node_modules
