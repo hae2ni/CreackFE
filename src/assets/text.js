@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
-export const display2 = styled.text`
+import styled from 'styled-components/native';
+export const Display2 = styled.text`
   font-family: 'Pretendard';
   font-style: 'normal';
   font-weight: 600;
@@ -9,7 +9,7 @@ export const display2 = styled.text`
   color: #1c1c1c;
 `;
 
-export const caption1 = styled.text`
+export const Caption1 = styled.text`
   font-family: 'Pretendard';
   font-style: normal;
   font-weight: 400;
@@ -18,7 +18,7 @@ export const caption1 = styled.text`
   color: #606060;
 `;
 
-export const display4 = styled.text`
+export const Display4 = styled.text`
   font-family: 'Pretendard';
   font-style: normal;
   font-weight: 400;
