@@ -5,6 +5,7 @@ export default function ChooseJob() {
   return (
     <>
       <Display2>알바 종류 고르기</Display2>
+      <ChooseJob />
     </>
   );
 }
