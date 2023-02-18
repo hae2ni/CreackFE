@@ -13,7 +13,14 @@ export function JobType() {
     '기타',
   ];
 
-  const jobList = jobs.map(job => <li>{job}</li>);
+  const jobList = jobs.map(job => <JobContainer>{job}</JobContainer>);
 
   return {jobList};
 }
+
+const JobContainer = styled.View`
+  width: 280px;
+  height: 48px;
+  order: 7;
+  flex-grow: 0;
+`;
