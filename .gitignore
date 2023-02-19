@@ -1,61 +1,88 @@
-# # OSX
-# #
-# .DS_Store
+# OSX
+#
+.DS_Store
 
-# # Xcode
-# #
-# build/
-# *.pbxuser
-# !default.pbxuser
-# *.mode1v3
-# !default.mode1v3
-# *.mode2v3
-# !default.mode2v3
-# *.perspectivev3
-# !default.perspectivev3
-# xcuserdata
-# *.xccheckout
-# *.moved-aside
-# DerivedData
-# *.hmap
-# *.ipa
-# *.xcuserstate
-# ios/.xcode.env.local
+Xcode
 
-# # Android/IntelliJ
-# #
-# build/
-# .idea
-# .gradle
-# local.properties
-# *.iml
-# *.hprof
-# .cxx/
-# *.keystore
-# !debug.keystore
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
 
-# # node.js
-# #
-# node_modules/
-# npm-debug.log
-# yarn-error.log
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
 
-# # fastlane
-# #
-# # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# # screenshots whenever they are needed.
-# # For more information about the recommended setup visit:
-# # https://docs.fastlane.tools/best-practices/source-control/
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
 
-# **/fastlane/report.xml
-# **/fastlane/Preview.html
-# **/fastlane/screenshots
-# **/fastlane/test_output
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
 
-# # Bundle artifact
-# *.jsbundle
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
 
-# # Ruby / CocoaPods
-# /ios/Pods/
-# /vendor/bundle/
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
 node_modules
+# User-specific configurations
+.idea/caches/
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/navEditor.xml
+
+.gradle
